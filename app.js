@@ -20,12 +20,6 @@ app.use(sinUpRoute);
 app.use(logInRoute);
 
 
-
-
-
-
-
-console.log(process.env.PORT)
 app.listen(process.env.PORT, ()=>{
     console.log("server is on");
 });
